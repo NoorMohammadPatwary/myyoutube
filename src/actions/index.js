@@ -1,9 +1,9 @@
-export const incrementNumber=()=> {
+export const increment=()=>{ 
     return {
         type : 'increment',
     }
 }
-export const decrementNumber=()=> {
+export const decrement=()=>{ 
     return {
         type : 'decrement',
     }
